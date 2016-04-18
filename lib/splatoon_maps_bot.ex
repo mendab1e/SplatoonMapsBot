@@ -1,0 +1,2 @@
+defmodule SplatoonMapsBot do
+end
