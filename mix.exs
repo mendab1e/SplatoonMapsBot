@@ -27,6 +27,11 @@ defmodule SplatoonMapsBot.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:nadia, "~> 0.4"}, {:botan, "~> 0.1.0"}, {:httpoison, "~> 0.8.0"}]
+    [
+      {:nadia, "~> 0.4"},
+      {:botan, "~> 0.1.0"},
+      {:httpoison, "~> 0.8.0"},
+      {:exvcr, "~> 0.7", only: :test}
+    ]
   end
 end

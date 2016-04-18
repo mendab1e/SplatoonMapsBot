@@ -1,0 +1,33 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://splatoon.ink/schedule.json"
+    },
+    "response": {
+      "body": "{\"updateTime\":1461016880561,\"schedule\":[{\"modes\":[{\"maps\":[{\"nameJP\":\"アロワナモール\",\"nameEN\":\"Arowana Mall\",\"name\":{\"jp\":\"アロワナモール\",\"en\":\"Arowana Mall\"}},{\"nameJP\":\"ヒラメが丘団地\",\"nameEN\":\"Flounder Heights\",\"name\":{\"jp\":\"ヒラメが丘団地\",\"en\":\"Flounder Heights\"}}],\"rules\":{\"jp\":\"ナワバリバトル\",\"en\":\"Turf War\"}},{\"maps\":[{\"nameJP\":\"デカライン高架下\",\"nameEN\":\"Urchin Underpass\",\"name\":{\"jp\":\"デカライン高架下\",\"en\":\"Urchin Underpass\"}},{\"nameJP\":\"マヒマヒリゾート＆スパ\",\"nameEN\":\"Mahi-Mahi Resort\",\"name\":{\"jp\":\"マヒマヒリゾート＆スパ\",\"en\":\"Mahi-Mahi Resort\"}}],\"rulesJP\":\"ガチホコ\",\"rulesEN\":\"Rainmaker\",\"rules\":{\"jp\":\"ガチホコ\",\"en\":\"Rainmaker\"}}],\"startTime\":1461016800000,\"endTime\":1461031200000,\"regular\":{\"maps\":[{\"nameJP\":\"アロワナモール\",\"nameEN\":\"Arowana Mall\",\"name\":{\"jp\":\"アロワナモール\",\"en\":\"Arowana Mall\"}},{\"nameJP\":\"ヒラメが丘団地\",\"nameEN\":\"Flounder Heights\",\"name\":{\"jp\":\"ヒラメが丘団地\",\"en\":\"Flounder Heights\"}}],\"rules\":{\"jp\":\"ナワバリバトル\",\"en\":\"Turf War\"}},\"ranked\":{\"maps\":[{\"nameJP\":\"デカライン高架下\",\"nameEN\":\"Urchin Underpass\",\"name\":{\"jp\":\"デカライン高架下\",\"en\":\"Urchin Underpass\"}},{\"nameJP\":\"マヒマヒリゾート＆スパ\",\"nameEN\":\"Mahi-Mahi Resort\",\"name\":{\"jp\":\"マヒマヒリゾート＆スパ\",\"en\":\"Mahi-Mahi Resort\"}}],\"rulesJP\":\"ガチホコ\",\"rulesEN\":\"Rainmaker\",\"rules\":{\"jp\":\"ガチホコ\",\"en\":\"Rainmaker\"}}},{\"modes\":[{\"maps\":[{\"nameJP\":\"シオノメ油田\",\"nameEN\":\"Saltspray Rig\",\"name\":{\"jp\":\"シオノメ油田\",\"en\":\"Saltspray Rig\"}},{\"nameJP\":\"マヒマヒリゾート＆スパ\",\"nameEN\":\"Mahi-Mahi Resort\",\"name\":{\"jp\":\"マヒマヒリゾート＆スパ\",\"en\":\"Mahi-Mahi Resort\"}}],\"rules\":{\"jp\":\"ナワバリバトル\",\"en\":\"Turf War\"}},{\"maps\":[{\"nameJP\":\"Ｂバスパーク\",\"nameEN\":\"Blackbelly Skatepark\",\"name\":{\"jp\":\"Ｂバスパーク\",\"en\":\"Blackbelly Skatepark\"}},{\"nameJP\":\"アンチョビットゲームズ\",\"nameEN\":\"Ancho-V Games\",\"name\":{\"jp\":\"アンチョビットゲームズ\",\"en\":\"Ancho-V Games\"}}],\"rulesJP\":\"ガチエリア\",\"rulesEN\":\"Splat Zones\",\"rules\":{\"jp\":\"ガチエリア\",\"en\":\"Splat Zones\"}}],\"startTime\":1461031200000,\"endTime\":1461045600000,\"regular\":{\"maps\":[{\"nameJP\":\"シオノメ油田\",\"nameEN\":\"Saltspray Rig\",\"name\":{\"jp\":\"シオノメ油田\",\"en\":\"Saltspray Rig\"}},{\"nameJP\":\"マヒマヒリゾート＆スパ\",\"nameEN\":\"Mahi-Mahi Resort\",\"name\":{\"jp\":\"マヒマヒリゾート＆スパ\",\"en\":\"Mahi-Mahi Resort\"}}],\"rules\":{\"jp\":\"ナワバリバトル\",\"en\":\"Turf War\"}},\"ranked\":{\"maps\":[{\"nameJP\":\"Ｂバスパーク\",\"nameEN\":\"Blackbelly Skatepark\",\"name\":{\"jp\":\"Ｂバスパーク\",\"en\":\"Blackbelly Skatepark\"}},{\"nameJP\":\"アンチョビットゲームズ\",\"nameEN\":\"Ancho-V Games\",\"name\":{\"jp\":\"アンチョビットゲームズ\",\"en\":\"Ancho-V Games\"}}],\"rulesJP\":\"ガチエリア\",\"rulesEN\":\"Splat Zones\",\"rules\":{\"jp\":\"ガチエリア\",\"en\":\"Splat Zones\"}}},{\"modes\":[{\"maps\":[{\"nameJP\":\"ネギトロ炭鉱\",\"nameEN\":\"Bluefin Depot\",\"name\":{\"jp\":\"ネギトロ炭鉱\",\"en\":\"Bluefin Depot\"}},{\"nameJP\":\"キンメダイ美術館\",\"nameEN\":\"Museum d'Alfonsino\",\"name\":{\"jp\":\"キンメダイ美術館\",\"en\":\"Museum d'Alfonsino\"}}],\"rules\":{\"jp\":\"ナワバリバトル\",\"en\":\"Turf War\"}},{\"maps\":[{\"nameJP\":\"ヒラメが丘団地\",\"nameEN\":\"Flounder Heights\",\"name\":{\"jp\":\"ヒラメが丘団地\",\"en\":\"Flounder Heights\"}},{\"nameJP\":\"ショッツル鉱山\",\"nameEN\":\"Piranha Pit\",\"name\":{\"jp\":\"ショッツル鉱山\",\"en\":\"Piranha Pit\"}}],\"rulesJP\":\"ガチヤグラ\",\"rulesEN\":\"Tower Control\",\"rules\":{\"jp\":\"ガチヤグラ\",\"en\":\"Tower Control\"}}],\"startTime\":1461045600000,\"endTime\":1461060000000,\"regular\":{\"maps\":[{\"nameJP\":\"ネギトロ炭鉱\",\"nameEN\":\"Bluefin Depot\",\"name\":{\"jp\":\"ネギトロ炭鉱\",\"en\":\"Bluefin Depot\"}},{\"nameJP\":\"キンメダイ美術館\",\"nameEN\":\"Museum d'Alfonsino\",\"name\":{\"jp\":\"キンメダイ美術館\",\"en\":\"Museum d'Alfonsino\"}}],\"rules\":{\"jp\":\"ナワバリバトル\",\"en\":\"Turf War\"}},\"ranked\":{\"maps\":[{\"nameJP\":\"ヒラメが丘団地\",\"nameEN\":\"Flounder Heights\",\"name\":{\"jp\":\"ヒラメが丘団地\",\"en\":\"Flounder Heights\"}},{\"nameJP\":\"ショッツル鉱山\",\"nameEN\":\"Piranha Pit\",\"name\":{\"jp\":\"ショッツル鉱山\",\"en\":\"Piranha Pit\"}}],\"rulesJP\":\"ガチヤグラ\",\"rulesEN\":\"Tower Control\",\"rules\":{\"jp\":\"ガチヤグラ\",\"en\":\"Tower Control\"}}}],\"splatfest\":false}",
+      "headers": {
+        "Date": "Mon, 18 Apr 2016 23:36:55 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "4460",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=dccff433f078d95f72e0c5b47116bd5431461022615; expires=Tue, 18-Apr-17 23:36:55 GMT; path=/; domain=.splatoon.ink; HttpOnly",
+        "X-Powered-By": "Express",
+        "Access-Control-Allow-Origin": "*",
+        "ETag": "W/\"XSNzo/yYD5XCZbeneymnjA==\"",
+        "CF-Cache-Status": "HIT",
+        "Expires": "Tue, 19 Apr 2016 03:36:55 GMT",
+        "Cache-Control": "public, max-age=14400",
+        "X-Content-Type-Options": "nosniff",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "295bf115076f3762-ARN"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
