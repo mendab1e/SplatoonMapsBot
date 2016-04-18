@@ -27,8 +27,6 @@ defmodule SplatoonMapsBot.Telegram do
   end
 
   def handle_update(payload) do
-    pid = spawn fn ->
-      MessagesHandler.reply(payload)
-    end
+    spawn fn -> MessagesHandler.reply(payload) end
   end
 end
