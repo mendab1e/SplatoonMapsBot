@@ -17,7 +17,7 @@ defmodule SplatoonMapsBot.InkApiClient do
   end
 
   defp parse_response(response) do
-    schedule = response
+    response
     |> Poison.decode!
     |> Dict.get("schedule")
     |> Enum.map(&(parse_rotation &1))
