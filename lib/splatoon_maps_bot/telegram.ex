@@ -15,18 +15,26 @@ defmodule SplatoonMapsBot.Telegram do
     end
   end
 
-  def fetch_updates([update]) do
+  defp fetch_updates([update]) do
     handle_update(update)
     %{update_id: update_id} = update
+
     update_id + 1
   end
 
-  def fetch_updates([head|updates]) do
+  defp fetch_updates([head|updates]) do
     handle_update(head)
     fetch_updates(updates)
   end
 
-  def handle_update(payload) do
+  defp handle_update(payload) do
     spawn fn -> MessagesHandler.reply(payload) end
+    spawn fn -> track(payload) end
+  end
+
+  defp track(%{message: %{text: event, from: %{id: uid}}}) do
+    if event == "/start" || event == "Stay fresh!" do
+      Botan.track(event, uid)
+    end
   end
 end

@@ -3,7 +3,7 @@ defmodule SplatoonMapsBot.MessagesHandler do
 
   def reply(%{message: %{text: "/start", chat: %{id: chat_id}}}) do
     chat_id |> Nadia.send_message(
-      "Use 'Stay fresh!' command to get maps and modes",
+      "Use 'Stay fresh!' button to get maps and modes",
       reply_markup: reply_keyboard
     )
   end
