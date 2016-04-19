@@ -7,7 +7,8 @@ defmodule SplatoonMapsBot.Mixfile do
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps]
+     deps: deps,
+     escript: escript]
   end
 
   # Configuration for the OTP application
@@ -33,5 +34,9 @@ defmodule SplatoonMapsBot.Mixfile do
       {:httpoison, "~> 0.8.0"},
       {:exvcr, "~> 0.7", only: :test}
     ]
+  end
+
+  defp escript do
+    [main_module: SplatoonMapsBot]
   end
 end
