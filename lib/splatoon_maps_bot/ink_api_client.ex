@@ -36,10 +36,18 @@ defmodule SplatoonMapsBot.InkApiClient do
     "#{rules}: #{maps}"
   end
 
-  defp build_reply(schedule) do
+  # Common day
+  defp build_reply(schedule) when length(schedule) > 1 do
     modes_now  = schedule |> Enum.at(0) |> Enum.join("\n")
     modes_next = schedule |> Enum.at(1) |> Enum.join("\n")
 
     "Now\n#{modes_now}\n\nNext\n#{modes_next}"
+  end
+
+  # Splatfest
+  defp build_reply(schedule) when length(schedule) == 1 do
+    modes_now  = schedule |> Enum.at(0) |> Enum.join("\n")
+
+    "Happy splatfest! Maps:\n#{modes_now}"
   end
 end
